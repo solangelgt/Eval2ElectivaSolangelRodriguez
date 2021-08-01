@@ -1,0 +1,57 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+.grande {
+    display:none;
+}
+
+.mediano {
+    display:none;
+}
+
+.pequeno {
+    display:none;
+}
+
+
+#container {
+    width:75%;
+    margin:0 auto;
+    border: 1px solid black;
+}
+
+button {
+    width:140px;
+    height:30px;
+    border-radius:10px;
+}
+
+a:link{text-decoration: none;}
+
+a:visited{text-decoration: none;}
+
+a:hover{
+    text-decoration: none;
+    background: white;
+    color: red;
+    font-size: 110%;
+}
+
+button {
+    width:140px;
+    height:30px;
+    border-radius:10px;
+}
+
+button:hover{
+    background:wheat;
+    color: red;
+    font-size: 110%;
+}
+
+
+.clearfix {
+    clear:both;
+}

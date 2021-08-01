@@ -1,0 +1,102 @@
+/*archivo css para dar formato a pantallas de baja resolución
+o pequeñas, menores a 900 pixeles */
+.pequeno {
+    display:inherit !important;
+}
+
+body{
+    font-family:Arial;
+    font-size:80%;
+}
+
+#titulo {
+    background: mediumblue;
+    width:100%;
+    height:80px;
+    margin:0px;
+    text-align: center;
+    line-height: 80px ;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    background:lightcyan;
+    border-bottom: 2px dashed black;
+    height:20px;
+    align-content:left;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.iconomenu {
+    width:10px;
+    height:10px;
+}
+
+#contenido {
+    text-align: center;
+    color:black;
+    width:100%;
+    background:white;
+    min-height:450px;
+    line-height: 15px;
+}
+
+#articulo {
+    width:90%;
+    margin-top: 50px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#articulo p {
+    text-align:center;
+}
+
+#figura {
+    align-self: center;
+    width:50%;
+    margin-top: 25px;
+}
+
+aside {
+    text-align: center;
+    width:100%;
+    background:plum;
+    min-height:50px;
+    color:white;
+    padding-top: 10px;
+}
+
+#piedepagina {
+    color:white;
+    background:black;
+    text-align: left;
+    height:20px;
+    line-height:10px;
+    padding-top:5px;
+}
+
+.iconoredes {
+    width:15px;
+    height:15px;
+    margin-right: 5px;
+}
+
+#minombre {
+    margin-right:75px;
+    float:left;
+    
+}
+
+#piedearticulo {
+    margin-top: 50px;
+    border-top: 1px solid blue;
+    padding-top: 15px;
+    width:100%;
+}
+
+

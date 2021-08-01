@@ -1,0 +1,111 @@
+/*archivo css para dar formato a pantallas de alta resolución
+o grandes, mayoress a 1100 pixeles */
+
+
+.grande {
+    display:inherit !important;
+}
+
+body{
+    background:lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+    background: mediumblue;
+    width:100%;
+    height:100px;
+    margin:0px;
+    text-align: center;
+    line-height: 100px ;
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+nav {
+    background:lightcyan;
+    border-bottom: 2px dashed black;
+    height:60px;
+    align-content:left;
+}
+
+nav ul li{
+    float:right;
+    margin:10px;
+    list-style: none;
+    line-height:30px;
+}
+
+.iconomenu {
+    width:30px;
+    height:30px;
+}
+
+#contenido {
+    text-align: center;
+    color:black;
+    float:left;
+    width:80%;
+    background:white;
+    min-height:600px;
+    line-height: 30px;
+}
+
+#articulo {
+    width:calc(60% - 10px);
+    float:left;
+    margin-top: 100px;
+    padding-left:10px;
+}
+
+#figura {
+    width:40%;
+    margin-top: 100px;
+}
+
+aside {
+    text-align: center;
+    float:left;
+    width:20%;
+    background:plum;
+    min-height:calc(600px - 30px);
+    color:white;
+    padding-top: 30px;
+}
+
+aside p {
+    border-bottom:1px solid brown;
+}
+
+#piedepagina {
+    color:white;
+    background:black;
+    text-align: right;
+    height:40px;
+    line-height:10px;
+    padding-top:10px;
+}
+
+.iconoredes {
+    width:30px;
+    height:30px;
+    margin-right: 10px; 
+}
+
+#minombre {
+    margin-right:10px;
+    float:left;
+    
+}
+
+#piedearticulo {
+    margin-top: 100px;
+    border-top: 2px solid blue;
+    padding-top: 30px;
+}
+
+
+
+
+
+
